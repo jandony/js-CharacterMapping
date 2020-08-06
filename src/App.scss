@@ -1,0 +1,59 @@
+$mainColor: white;
+
+.App {
+  padding-top: 3rem;
+}
+
+.flex-container {
+  background-color: #eee;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.card {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin: 0.5rem;
+  padding: 0;
+  width: 23%;
+  background-color: white;
+
+  .progressBar {
+    height: 5px;
+    background-color: #eee;
+    border-radius: 5px;
+
+    .stat {
+      height: 5px;
+      background-color: blue;
+      border-radius: 5px;
+      width: 75%;
+    }
+  }
+
+  h1 {
+    color: $mainColor;
+    background-color: #000;
+    border-radius: 6px 6px 0px 0px;
+    margin: 0;
+    padding-left: 0.5rem;
+  }
+  .card-body {
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
