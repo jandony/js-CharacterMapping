@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Character from "./Components/Character/Character";
+import Data from "./Components/Data/Data";
 import "./App.scss";
 
 class App extends Component {
